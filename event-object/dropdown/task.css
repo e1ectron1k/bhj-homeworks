@@ -1,4 +1,6 @@
 .dropdown {
+  position: relative;
+  display: inline-block;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -11,8 +13,9 @@
   color: #fff;
   background: gray;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 8px 12px;
   display: inline-block;
+  border: 1px solid #ccc;
   cursor: pointer;
   border-radius: 6px;
 }
@@ -29,10 +32,12 @@
   padding: 0;
   margin: 0;
   top: 100%;
-  left: 145px;
+  left: 0;
   border: 1px solid gray;
   border-bottom: none;
   border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .dropdown__link {
